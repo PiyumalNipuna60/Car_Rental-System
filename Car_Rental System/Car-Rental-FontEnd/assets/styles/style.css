@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFF200;
+}
+
+html body {
+    overflow-x: hidden;
+}
+
+.homePage {
+    background: url("../img/Login/IMG_3496bfree.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.welcomeBanner {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.welcomeBanner > h1 {
+    color: white;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.welcomeBanner > h2 {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
+
+#header {
+    height: 80px;
+    box-shadow: 0 4px 10px -3px rgba(183, 174, 174, 0.34);
+    /*position: relative;*/
+    background: #f1d568;
+}
+
+.navbar {
+    height: 80px;
+    /*background: rgba(189, 0, 0, 0.8) top;*/
+    box-shadow: 0 4px 10px -3px rgba(183, 174, 174, 0.34);
+    background: wheat;
+    /*overflow: hidden;*/
+}
+
+#navSection {
+    box-shadow: 0 4px 10px -3px rgba(191, 191, 191, 0.5);
+
+}
+
+.adminContent #v-tabs-dash-tab, #v-tabs-car-tab, #v-tabs-customer-tab, #v-tabs-driver-tab, #v-tabs-rentals-tab, #v-tabs-payment-tab, #v-tabs-request-tab,
+#v-tabs-profile-tab, #v-tabs-setting-tab, #v-tabs-rentalreturns-tab, #v-tabs-maintenance-tab, #v-tabs-income-tab {
+    padding: 25px;
+    font-size: 20px;
+    text-shadow: #c7c7c7 5px 5px 5px;
+
+}
+
+#v-tabs-dash > div > h1, #v-tabs-car > div > h1, #v-tabs-customer > div > h1, #v-tabs-driver > div > h1, #v-tabs-order > div > h1, #v-tabs-payment > div > h1, #v-tabs-request > div > h1,
+#v-tabs-profile > div > h1, #v-tabs-setting > div > h1, #v-tabs-bookingreturn > div > h1, #v-tabs-maintaince > div > h1 {
+    text-shadow: #c0c0c0 5px 5px 5px;
+}
+
+#leftDash {
+    padding-right: 0;
+    border-right: 3px solid #777bff;
+}
+
+.navbar li {
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    justify-content: space-around;
+}
+
+.navbar li .nav-link {
+    color: black;
+    opacity: 1;
+}
+
+.navbar li .nav-link:hover {
+    color: #002aff;
+    text-decoration: underline;
+    text-decoration-color: #002aff;
+}
+
+.changeColor {
+    color: #eeff00;
+}
+
+.login_container {
+    background: url("../img/Login/good-looking.jpg");
+    opacity: 0.75;
+    background-size: cover;
+    background-position: center;
+}
+
+.taxi_png {
+    width: 102%;
+    height: 90%;
+    position: relative;
+    left: -12px;
+}
+
+.img_div {
+    border-right: gray solid 1px;
+}
+
+#digitalClock {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    text-align: right;
+}
+
+.sticky {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.sticky + main {
+    padding-top: 60px;
+}
+
+#c1, #c2, #c3, #c4, #c5, #c6 {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#c1 > .card, #c2 > .card, #c3 > .card, #c4 > .card, #c5 > .card, #c6 > .card {
+    box-shadow: #e0e0e0 0px 2px 10px;
+}
+
+#c1 > .card {
+    border-bottom: 5px #b23cfd solid;
+}
+
+#c2 > .card {
+    border-bottom: 5px #00b74a solid;
+}
+
+#c3 > .card {
+    border-bottom: 5px #ffa900 solid;
+}
+
+#c4 > .card {
+    border-bottom: 5px #1266f1 solid;
+}
+
+#c5 > .card {
+    border-bottom: 5px #fa011e solid;
+}
+
+#c6 > .card {
+    border-bottom: 5px #01fadd solid;
+}
