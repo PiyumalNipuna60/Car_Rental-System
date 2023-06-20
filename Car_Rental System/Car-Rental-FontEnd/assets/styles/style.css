@@ -104,15 +104,14 @@ html body {
 }
 
 .login_container {
-    background: url("../img/Login/good-looking.jpg");
-    opacity: 0.75;
+    /*background: url("../img/Login/good-looking.jpg");*/
     background-size: cover;
     background-position: center;
 }
 
 .taxi_png {
     width: 102%;
-    height: 90%;
+    height: 100%;
     position: relative;
     left: -12px;
 }

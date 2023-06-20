@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="assets/styles/normalize.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/LoginPage.css">
+    <link rel="stylesheet" href="assets/Sweet%20Alert/sweetalert2.min.css">
+
+</head>
+<body>
+
+<section id="section1">
+    <img src="assets/img/carRentalLoginCover.jpg" alt="">
+    <h1 id="h1">Login Form</h1>
+    <hr>
+
+    <!--New Added-->
+
+    <input style="background-color: #0c63e4; position: absolute; width: 150px; visibility: hidden" type="text" id="txtLogId" class="form-control" />
+
+    <div id="dropdown1">
+        <select class="form-select" aria-label="Default select example" id="cmbType"
+                name="type">
+            <option selected>Customer</option>
+            <option value="1">Driver</option>
+            <option value="2">Admin</option>
+        </select>
+    </div>
+
+    <div id="div1">
+
+        <form>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="userName">UserName</label>
+                <input type="email" id="userName" class="form-control" />
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="password">Password</label>
+                <input type="password" id="password" class="form-control" />
+            </div>
+
+
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+                <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                        <label class="form-check-label" for="form2Example31"> Remember me </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <!-- Simple link -->
+                    <a href="#!">Forgot password?</a>
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <button id="btnLogin" type="button" class="btn btn-primary btn-block mb-4" style="width:100%; border-color:#023646">Sign in</button>
+
+            <!-- Register buttons -->
+            <div class="text-center">
+                <p>Not a member? <a href="RegisterPage.html">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+</section>
+
+
+<script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/sweetalert/sweetalert2.all.min.js"></script>
+<script src="assets/js/LoginController.js"></script>
+
+</body>
+</html>

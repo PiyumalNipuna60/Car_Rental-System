@@ -1,0 +1,42 @@
+body{
+    overflow: hidden;
+}
+
+#dropdown1{
+    position: relative;
+    width: 200px;
+    left: 76%;
+    top: -136px;
+}
+
+#cmbType{
+    background-color: #8bddef;
+}
+
+#div1{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    left: 63%;
+    top: -90px
+}
+
+#h1{
+    position: relative;
+    left: 67%;
+    top: -187px;
+    font-size: 50px;
+}
+
+hr{
+    left: 60%;
+    width: 500px;
+    position: relative;
+    top: -165px;
+}
+
+img{
+    position: relative;
+    left: 75px;
+    top: 282px;
+}
