@@ -7,7 +7,7 @@ payments , return a rent car , register drivers etc.
 Stack - Spring, Spring MVC, HTML, CSS , Java SE , MySQL , Git , Github
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=MVC+Architecture;Competitive+Programmer;IJSE+GDSE+Student;Spring%20|Spring MVC%20|CSS%20|JAVA Script%20|JAVA EE%20|MYSQL%20|%HTML|%20OOP%20;Specialist%20on%20Codeforces;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=MVC+Architecture;Competitive+Programmer;IJSE+GDSE+Student;Spring%20|Spring-MVC%20|JAVA-EE%20;CSS%20|JAVA-Script%20|MYSQL%20|%HTML|%20OOP%20;Specialist%20on%20Codeforces;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
 </p>
 
 <img src="https://github.com/PiyumalNipuna60/Car_Rental-System/blob/master/Car_Rental%20System/Car-Rental-FontEnd/assets/img/ReadMeImage/1.png" alt="drawing01" width="100%" align="center">
